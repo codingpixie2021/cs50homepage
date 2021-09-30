@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_adv.css">
+        <title>Advanced Search</title>
+    </head>
+
+    <body>
+        <!-- **********    HEADER   **********  -->
+        <header class="header adv_header">
+			<nav class="navbar">
+				<a class="navbar_index" href="index.html">Google Search</a>
+			</nav>
+        </header>
+        <!-- **********  HEADER END  **********  -->
+
+        
+        <!-- **********  MAIN CONTENT ********** -->
+        <main>
+            
+            <div class="title_wrapper">
+                <div class="label">
+                    <label style="margin-left:10px">Advanced Search</label>
+                </div>
+                <div class="under_label"></div>
+            </div>
+
+            <div class="container">
+        
+                <div class="top">
+                        <div class="find_pages">
+                            <label for="find">Find pages with...</label>
+                        </div>
+                        <div></div>
+                        <div><label for="todo">To do this in the search box:</label></div>
+                    
+                </div>
+
+                <div>
+                        <form class="grid_form" action="https://google.com/search" method="GET">
+                    
+                            <div class="words">
+                                <span>all these words:</span>
+                            </div>
+                            <div class="input_words input_field">
+                                <input type="text" id="input_words" name="q" autofocus>
+                            </div>
+                            <div class="type"><span>Type the important words: dog terrier</span>
+                            </div>
+                        
+                            <div class="exact">
+                                <span>this exact word or phrase:</span>
+                            </div>
+                            <div class="exact_words input_field">
+                                <input type="text" name="input_words" id="input_words">
+                            </div>
+                            <div class="put"><span>Put exact words in quotes: "dog terrier"</span>
+                            </div>
+                
+                
+                            <div class="any">
+                                <span>any of these words:</span>
+                            </div>
+                            <div class="any_words input_field">
+                                <input type="text" name="input_words" id="input_words">
+                            </div>
+                            <div class="typeor"><span>Type OR between all the words you want: little OR standard</span>
+                            </div>
+                
+                        
+                            <div class="none">
+                                <span>none of these words:</span>
+                            </div>
+                            <div class="no_words input_field">
+                                <input type="text" name="input_words" id="input_words">
+                            </div>
+                            <div class="minus"><span>Put a minus sign just before the words you don't want: -"puppy"</span>
+                            </div>
+
+                            <br>
+                            <input class="search_btn" type="submit" value="Advanced Search">
+                            <div></div>
+                        </form>
+                    </div>
+            </div>      
+        
+        </main>
+        <!-- **********  MAIN CONTENT END ********** -->
+         
+
+    </body>
+</html>
